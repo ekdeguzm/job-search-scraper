@@ -1,0 +1,39 @@
+Emil De Guzman
+415 336 4670 | em.deguzm@gmail.com | ekdeguzm.github.io | linkedin.com/in/emildeguzman
+
+SKILLS
+Languages & Backend: Python (Pandas, NumPy), Go (foundational), Java, R, Bash, Git, Docker, Linux
+Cloud & Infrastructure: AWS (IAM, S3, EC2, KMS, GuardDuty), HashiCorp Vault/Consul/Nomad, Terraform, Databricks, Datadog, OpenTelemetry, PagerDuty
+AI & Security Tooling: Anthropic API, AWS Bedrock, Model Context Protocol (MCP), Claude Code, LLM Observability, Playwright, Selenium, TruffleHog, Gitleaks, SOC 2, SIEM
+
+EMPLOYMENT
+
+Voltus, Security Engineering Intern (2026 - Present)
+- Designed and shipped a Go access-governance service automating manual provisioning (previously ~3 hrs of engineer time, up to 23-day turnaround); identified a privilege-escalation risk in the initial design and replaced it with a PR-gated approval flow using ephemeral Vault-issued credentials, the architecture it still runs on
+- Shipped the system in 3 phases (drift detection -> additions -> removals) behind feature flags, backed by a Terraform-managed source of truth and automated tests; diagnosed a production crash-loop via direct API testing, root-causing it to a credential-path mismatch
+- Built and shipped a TypeScript VS Code extension, auto-installed across every engineering Codespace, solving subprocess lifecycle management (custom pseudoterminal, real-time port detection, orphaned-process cleanup) for an internal developer platform with 40+ apps
+- Root-caused and fixed a team-wide Codespaces build outage traced to a container feature ordering bug, restoring the first working build in 3+ days after diagnosing it via CI log analysis
+- Built log and cost infrastructure for an internal AI agent platform (Anthropic API + MCP) used by ~250 employees, including an S3 archival pipeline and a cost-attribution system that surfaced ~$612/week of previously unattributed spend
+
+BillionToOne, Laboratory Information Management Systems Associate (Contract) (2025 - 2026)
+- Developed Python-based role and permissions audit tool for an enterprise laboratory information management system, implementing automated browser and API testing and generating executive-level reports for CAP inspection compliance
+- Directed a cross-functional project spanning IT, engineering, lab teams, and leadership to implement end-to-end Python automation pipelines integrating Clarity LIMS, NAS storage, and BarTender to enable fully automated printing workflows, accelerating label generation by 8x (4 minutes to 30 seconds) and improving sample turnaround time
+- Led LIMS user support and system triage, resolving high-priority issues and absorbing 45% of incoming tickets (60+/mo), contributing to the fastest turnaround times in the company's history
+
+City College of San Francisco, Computer Science Teacher's Assistant & Tutor (Part-time) (2025)
+- Tutored students in OOP, data structures and algorithms, and computer architecture through 1:1 sessions, debugging support, and project guidance
+
+Mission Bit, Lead Front-End Web Development Instructor (Part-time) (2024)
+- Led curriculum design and a team of 5 TAs and volunteers teaching front-end web development (HTML, CSS, JavaScript, Figma) to 30+ under-resourced high school students; helped them prepare capstone projects for hackathon
+- Iterated on lesson pacing and project scope mid-cohort based on what students were struggling with; 100% of students completed and presented their own project on time
+
+Recurse Center, Participant (2022)
+- Self-directed programming retreat. Explored data processing and UI interactivity through independent Python projects
+
+EDUCATION
+Georgia Institute of Technology - Master of Science, Computer Science (2028, expected)
+City College of San Francisco - Associate in Science, Computer Science (2025)
+University of California Davis - Bachelor of Science, Wildlife, Fish, and Conservation Biology (2018)
+
+RESEARCH
+De Guzman, E., Colombano, D., Durand, J., and Moyle, P. 2018. Investigating the Role of Spring-Neap and Tidal Variability on Water Quality and Nutrient Across Marsh Habitats. Presented at: Bay Delta Science Conference
